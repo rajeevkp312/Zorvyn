@@ -1,10 +1,12 @@
-import Bar from 'recharts/es6/cartesian/Bar'
-import BarChart from 'recharts/es6/charts/BarChart'
-import CartesianGrid from 'recharts/es6/cartesian/CartesianGrid'
-import ResponsiveContainer from 'recharts/es6/component/ResponsiveContainer'
-import Tooltip from 'recharts/es6/component/Tooltip'
-import XAxis from 'recharts/es6/cartesian/XAxis'
-import YAxis from 'recharts/es6/cartesian/YAxis'
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts'
 
 import { formatCurrency } from '@/data/insightsUtils'
 

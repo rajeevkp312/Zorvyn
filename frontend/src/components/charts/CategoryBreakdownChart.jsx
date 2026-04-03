@@ -1,9 +1,11 @@
-import Cell from 'recharts/es6/component/Cell'
-import Legend from 'recharts/es6/component/Legend'
-import Pie from 'recharts/es6/polar/Pie'
-import PieChart from 'recharts/es6/charts/PieChart'
-import ResponsiveContainer from 'recharts/es6/component/ResponsiveContainer'
-import Tooltip from 'recharts/es6/component/Tooltip'
+import {
+  Cell,
+  Legend,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
+  Tooltip,
+} from 'recharts'
 
 const COLORS = ['#4f46e5', '#06b6d4', '#f97316', '#10b981', '#ef4444', '#a855f7']
 

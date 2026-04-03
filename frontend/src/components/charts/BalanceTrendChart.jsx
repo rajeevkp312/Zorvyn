@@ -1,10 +1,12 @@
-import CartesianGrid from 'recharts/es6/cartesian/CartesianGrid'
-import Line from 'recharts/es6/cartesian/Line'
-import LineChart from 'recharts/es6/charts/LineChart'
-import ResponsiveContainer from 'recharts/es6/component/ResponsiveContainer'
-import Tooltip from 'recharts/es6/component/Tooltip'
-import XAxis from 'recharts/es6/cartesian/XAxis'
-import YAxis from 'recharts/es6/cartesian/YAxis'
+import {
+  CartesianGrid,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts'
 
 function formatCurrency(value) {
   return new Intl.NumberFormat(undefined, {
